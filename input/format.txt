@@ -1,0 +1,12 @@
+We detail the format of the input in the explanation below.
+____________________________________________________________
+
+1. The first line is the number of suitors and the number of picks.
+
+2. The first line is a list of `n` names of suitors. The parser assumes that each name is a single word for simplicity.
+
+3. The second line is a list of `m` names of picks. The parser assumes that each name is a single word for simplicity.
+
+4. The next `n` lines begin with a suitor followed by the `m` picks in highest to lowest order.
+
+5. The next `m` lines begin with a pick followed by the `n` suitors in highest to lowest order.

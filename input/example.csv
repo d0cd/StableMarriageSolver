@@ -1,0 +1,9 @@
+3,3
+SuitorA,SuitorB,SuitorC
+PickA,PickB,PickC
+SuitorA,PickA,PickC,PickB
+SuitorB,PickB,PickC,PickA
+SuitorC,PickC,PickB,PickA
+PickA,SuitorA,SuitorB,SuitorC
+PickB,SuitorC,SuitorA,SuitorB
+PickC,SuitorB,SuitorC,SuitorA
