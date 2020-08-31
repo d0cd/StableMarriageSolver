@@ -4,6 +4,7 @@
  *  https://en.wikipedia.org/wiki/Stable_marriage_problem
  */
 
+
 import java.io.*;
 import java.util.*;
 
@@ -100,7 +101,7 @@ public class GSSolver {
      */
     public static void main(String[] args) {
         assert(args.length == 1);
-        GSSolver solver = new GSSolver(args[1]);
+        GSSolver solver = new GSSolver(args[0]);
         solver.solve();
         solver.printMatchings();
     }
